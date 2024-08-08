@@ -14,7 +14,7 @@ app.use(cors());
 // app.use(morgan('dev'));
 
 // Define Routes
-app.get('/api', async (req, res) => {
+app.get('/api/norek', async (req, res) => {
   const datas = await controller()
   res.send(datas);
 });
